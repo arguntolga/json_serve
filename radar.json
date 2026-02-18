@@ -1,57 +1,184 @@
 {
-  "title": "Internal Technology Radar",
-  "quadrants": [
-    { "id": "techniques", "name": "Techniques" },
-    { "id": "tools", "name": "Tools" },
-    { "id": "platforms", "name": "Platforms" },
-    { "id": "languages", "name": "Languages & Frameworks" }
-  ],
   "rings": [
-    { "id": "adopt", "name": "Adopt" },
-    { "id": "trial", "name": "Trial" },
-    { "id": "assess", "name": "Assess" },
-    { "id": "hold", "name": "Hold" }
+    {
+      "id": "use",
+      "name": "USE",
+      "color": "#93c47d"
+    },
+    {
+      "id": "trial",
+      "name": "TRIAL",
+      "color": "#93d2c2"
+    },
+    {
+      "id": "assess",
+      "name": "ASSESS",
+      "color": "#fbdb84"
+    },
+    {
+      "id": "hold",
+      "name": "HOLD",
+      "color": "#efafa9"
+    }
+  ],
+  "quadrants": [
+    {
+      "id": "infrastructure",
+      "name": "Infrastructure"
+    },
+    {
+      "id": "frameworks",
+      "name": "Frameworks"
+    },
+    {
+      "id": "languages",
+      "name": "Languages"
+    },
+    {
+      "id": "process",
+      "name": "Process"
+    }
   ],
   "entries": [
     {
-      "id": "kafka",
-      "title": "Apache Kafka",
-      "quadrant": "platforms",
-      "ring": "adopt",
-      "description": "Standard platform for event streaming and async communication.",
-      "moved": 0
+      "timeline": [
+        {
+          "moved": 0,
+          "ringId": "use",
+          "date": "2020-08-06T00:00:00.000Z",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua"
+        }
+      ],
+      "url": "#",
+      "key": "javascript",
+      "id": "javascript",
+      "title": "JavaScript",
+      "quadrant": "languages"
     },
     {
-      "id": "websocket",
-      "title": "WebSocket",
-      "quadrant": "techniques",
-      "ring": "trial",
-      "description": "Used for real-time bidirectional communication with clients.",
-      "moved": 1
+      "timeline": [
+        {
+          "moved": 0,
+          "ringId": "use",
+          "date": "2020-08-06T00:00:00.000Z",
+          "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat"
+        }
+      ],
+      "url": "#",
+      "key": "typescript",
+      "id": "typescript",
+      "title": "TypeScript",
+      "quadrant": "languages"
     },
     {
-      "id": "spring-boot",
-      "title": "Spring Boot",
-      "quadrant": "languages",
-      "ring": "adopt",
-      "description": "Primary framework for Java microservices.",
-      "moved": 0
+      "timeline": [
+        {
+          "moved": 0,
+          "ringId": "use",
+          "date": "2020-08-06T00:00:00.000Z"
+        }
+      ],
+      "url": "#",
+      "key": "webpack",
+      "id": "webpack",
+      "title": "Webpack",
+      "quadrant": "frameworks"
     },
     {
-      "id": "haproxy",
-      "title": "HAProxy",
-      "quadrant": "tools",
-      "ring": "adopt",
-      "description": "Software-based load balancer replacing hardware appliances.",
-      "moved": 0
+      "timeline": [
+        {
+          "moved": 0,
+          "ringId": "use",
+          "date": "2020-08-06T00:00:00.000Z"
+        }
+      ],
+      "url": "#",
+      "key": "react",
+      "id": "react",
+      "title": "React",
+      "quadrant": "frameworks"
     },
     {
-      "id": "monolith",
-      "title": "Big Monolith Applications",
-      "quadrant": "techniques",
-      "ring": "hold",
-      "description": "Avoid large monoliths for new developments.",
-      "moved": -1
+      "timeline": [
+        {
+          "moved": 0,
+          "ringId": "use",
+          "date": "2020-08-06T00:00:00.000Z"
+        }
+      ],
+      "url": "#",
+      "key": "code-reviews",
+      "id": "code-reviews",
+      "title": "Code Reviews",
+      "quadrant": "process"
+    },
+    {
+      "timeline": [
+        {
+          "moved": 0,
+          "ringId": "use",
+          "date": "2020-08-06T00:00:00.000Z"
+        }
+      ],
+      "url": "#",
+      "key": "docs-like-code",
+      "id": "docs-like-code",
+      "title": "Docs-like-code",
+      "quadrant": "process"
+    },
+    {
+      "timeline": [
+        {
+          "ringId": "hold",
+          "date": "2020-08-06T00:00:00.000Z"
+        }
+      ],
+      "url": "#",
+      "key": "force-push",
+      "id": "force-push",
+      "title": "Force push to master",
+      "quadrant": "process"
+    },
+    {
+      "timeline": [
+        {
+          "ringId": "use",
+          "date": "2020-08-06T00:00:00.000Z"
+        }
+      ],
+      "url": "#",
+      "key": "github-actions",
+      "id": "github-actions",
+      "title": "GitHub Actions",
+      "quadrant": "infrastructure"
+    },
+    {
+      "timeline": [
+        {
+          "moved": 0,
+          "ringId": "use",
+          "date": "2021-02-09T00:00:00.000Z"
+        }
+      ],
+      "url": "#",
+      "key": "backstage",
+      "id": "backstage",
+      "title": "Backstage",
+      "quadrant": "infrastructure"
+    },
+        {
+      "timeline": [
+        {
+          "moved": 0,
+          "ringId": "use",
+          "date": "2021-02-09T00:00:00.000Z"
+        }
+      ],
+      "url": "#",
+      "key": "roadie",
+      "id": "roadie",
+      "title": "Roadie",
+      "quadrant": "infrastructure"
     }
   ]
 }
